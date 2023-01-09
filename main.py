@@ -7,4 +7,8 @@ s = ''
 for i in range(11):
     #рандомно выбираем цифру из символов ASCII
     s += random.choice(string.ascii_letters)
+<<<<<<< HEAD
+=======
+    s += str(random.randint(0, 9))
+>>>>>>> dev
 print(s)
